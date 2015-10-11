@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="bootstrap.css">
+
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="container">
+		<h1 class="page-header">对话框</h1>
+		<a href="#login" class="btn btn-primary" data-toggle="modal">点击登录</a>
+		<div class="modal fade" id="login" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<a href="#" class="close" data-dismiss="modal">x</a>
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel">模态框（Modal）标题</h4>
+					</div>
+					<div class="modal-body">内容</div>
+					<div class="modal-footer">
+						<button class="btn btn-primary">submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

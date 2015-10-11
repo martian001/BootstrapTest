@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <title></title>
+<style>
+    .navbar-default{
+        background-color: #fff;
+        border-color: white;
+        color: #333;
+        font-size: 18px;
+    }
+   #menu a:hover{
+        color: #f6ac00;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1 class="page-header">导航
+        <small>响应式设计</small>
+    </h1>
+    <nav role="navigation" class="navbar navbar-default"><!-- navbar-fixed-top 固定顶部 -->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" data-toggle="collapse" data-target="#navbar-collapse-menu"
+                        class="navbar-toggle"><span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+               </div>
+            <div id="navbar-collapse-menu" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">首页</a></li>
+                </ul>
+                <ul class="navbar-right nav navbar-nav" id="menu">
+                    <li><a href="#">注册</a></li>
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">帮助</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div style="height: 2000px;"></div>
+</body>
+</html>
